@@ -2,6 +2,7 @@ import React from "react";
 import SamplePic from "../images/sample-pic.png";
 import { Typewriter } from "react-simple-typewriter";
 import HeadingText from "./HeadingText";
+import { Link } from "react-router-dom";
 
 const HeroContainer = () => {
   const typeWriterWords = [
@@ -41,13 +42,15 @@ const HeroContainer = () => {
             />
           </p>
           <div data-aos="zoom-in" className="wow animate__flip">
-            <button
-              href="#contact"
-              className="wow animate__animated animate__flip contact__me__btn w-[max-content] cursor-pointer after:transition-all transition-all py-[8px] px-[16px] border border-[#C778DD] mt-[24px] text-[16px] font-medium text-white  hover:scale-110 hover:rotate-2 desktop-s:text-[15px] mobile-l:hover:rotate-0"
-              // data-aos="fade-up-right"
-            >
-              Contact me!!
-            </button>
+            <Link to={"/contact"}>
+              <button
+                href="#contact"
+                className="wow animate__animated animate__flip contact__me__btn w-[max-content] cursor-pointer after:transition-all transition-all py-[8px] px-[16px] border border-[#C778DD] mt-[24px] text-[16px] font-medium text-white  hover:scale-110 hover:rotate-2 desktop-s:text-[15px] mobile-l:hover:rotate-0"
+                // data-aos="fade-up-right"
+              >
+                Contact me!!
+              </button>
+            </Link>
           </div>
         </div>
         <div className="flex-shrink-0 desktop-m:w-[400px] desktop-s:w-[350px] relative tablet-l:w-full tablet-l:flex tablet-l:justify-center">

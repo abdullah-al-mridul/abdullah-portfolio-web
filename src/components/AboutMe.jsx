@@ -2,6 +2,7 @@ import React from "react";
 import WithAos from "./WithAos";
 import AboutMeImage from "../images/about-me-img.png";
 import SideBubble from "../images/side-bubble.png";
+import { Link } from "react-router-dom";
 const AboutMe = () => {
   return (
     <>
@@ -61,9 +62,11 @@ const AboutMe = () => {
             </WithAos>
             <div className="mt-[27px] desktop-s:mt-[25px]">
               <WithAos animation={"fade-up"}>
-                <button className="border text-white font-medium gap-[8px] py-[8px] px-[16px] border-[#C778DD] flex items-center justify-center read__more__btn after:transition-all desktop-s:text-[15px] tablet-s:text-[14px]">
-                  Read More <i className="fa-light fa-arrow-right-long"></i>
-                </button>
+                <Link to={"/about"}>
+                  <button className="border text-white font-medium gap-[8px] py-[8px] px-[16px] border-[#C778DD] flex items-center justify-center read__more__btn after:transition-all desktop-s:text-[15px] tablet-s:text-[14px]">
+                    Read More <i className="fa-light fa-arrow-right-long"></i>
+                  </button>
+                </Link>
               </WithAos>
             </div>
           </div>

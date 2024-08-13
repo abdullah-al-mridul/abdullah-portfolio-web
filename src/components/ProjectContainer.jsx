@@ -79,13 +79,20 @@ const ProjectContainer = () => {
                   data-aos="zoom-in-right"
                   className="px-[16px] after:transition-all text-white py-[8px] border-[#c778dd] project__btn border tablet-l:py-[4px] tablet-l:px-[14px] tablet-l:text-[14px]"
                 >
-                  <a href="">Live {"<~>"}</a>
+                  <a target="_blank" href="https://m-chat-app.vercel.app">
+                    Live {"<~>"}
+                  </a>
                 </button>
                 <button
                   data-aos="zoom-in-left"
                   className="px-[16px] after:transition-all text-[#ABB2BF] py-[8px] border-[#ABB2BF] project__btn__gray border tablet-l:px-[14px] tablet-l:py-[4px] tablet-l:text-[14px]"
                 >
-                  <a href="">Code {">="}</a>
+                  <a
+                    target="_blank"
+                    href="https://github.com/abdullah-al-mridul/m-chat-app"
+                  >
+                    Code {">="}
+                  </a>
                 </button>
               </div>
             </div>
@@ -132,13 +139,23 @@ const ProjectContainer = () => {
                   data-aos="zoom-in-right"
                   className="px-[16px] after:transition-all text-white py-[8px] border-[#c778dd] project__btn border tablet-l:py-[4px] tablet-l:px-[14px] tablet-l:text-[14px]"
                 >
-                  <a href="">Live {"<~>"}</a>
+                  <a
+                    target="_blank"
+                    href="https://2048-game-ashen-pi.vercel.app/"
+                  >
+                    Live {"<~>"}
+                  </a>
                 </button>
                 <button
                   data-aos="zoom-in-left"
                   className="px-[16px] after:transition-all text-[#ABB2BF] py-[8px] border-[#ABB2BF] project__btn__gray border tablet-l:px-[14px] tablet-l:py-[4px] tablet-l:text-[14px]"
                 >
-                  <a href="">Code {">="}</a>
+                  <a
+                    target="_blank"
+                    href="https://github.com/abdullah-al-mridul/2048-game"
+                  >
+                    Code {">="}
+                  </a>
                 </button>
               </div>
             </div>
@@ -185,13 +202,23 @@ const ProjectContainer = () => {
                   data-aos="zoom-in-right"
                   className="px-[16px] after:transition-all text-white py-[8px] border-[#c778dd] project__btn border tablet-l:py-[4px] tablet-l:px-[14px] tablet-l:text-[14px]"
                 >
-                  <a href="">Live {"<~>"}</a>
+                  <a
+                    target="_blank"
+                    href="https://quiz-app-ashen-tau.vercel.app/"
+                  >
+                    Live {"<~>"}
+                  </a>
                 </button>
                 <button
                   data-aos="zoom-in-left"
                   className="px-[16px] after:transition-all text-[#ABB2BF] py-[8px] border-[#ABB2BF] project__btn__gray border tablet-l:px-[14px] tablet-l:py-[4px] tablet-l:text-[14px]"
                 >
-                  <a href="">Code {">="}</a>
+                  <a
+                    target="_blank"
+                    href="https://github.com/abdullah-al-mridul/frontend-quiz"
+                  >
+                    Code {">="}
+                  </a>
                 </button>
               </div>
             </div>

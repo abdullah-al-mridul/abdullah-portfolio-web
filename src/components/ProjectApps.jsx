@@ -27,7 +27,7 @@ const ProjectApps = () => {
           bio="Web chat app for messaging"
           verified
           git__link="https://github.com/abdullah-al-mridul/m-chat-app"
-          link="https://m-chat-bd.netlify.app"
+          link="https://m-chat-app.vercel.app"
         />
         <ProjectCard
           imgLink={Game}
@@ -46,7 +46,7 @@ const ProjectApps = () => {
           header="Quiz App"
           bio="Web based frontend quiz app"
           verified
-          link="https://frontend-quizs.netlify.app/"
+          link="https://quiz-app-ashen-tau.vercel.app/"
           git__link="https://github.com/abdullah-al-mridul/frontend-quiz"
         />
         <ProjectCard
@@ -75,7 +75,7 @@ const ProjectApps = () => {
           header="Portfolio Old"
           bio="Web based old portfolio"
           verified
-          link="https://abdullah-al-mridul.netlify.app/"
+          link="https://portfolio-old-production.vercel.app/"
           git__link="https://github.com/abdullah-al-mridul/portfolio-old-production"
         />
         <ProjectCard
@@ -120,7 +120,7 @@ const ProjectApps = () => {
             techStackList={["HTML", "CSS", "TailwindCSS", "JS"]}
             header="Web Clone"
             bio="A simple portfolio clone"
-            link="https://clone-portfolio-theme.netlify.app/"
+            link="https://portfolio-clone-jade.vercel.app/"
           />
           <ShortProjectCard
             techStackList={["HTML", "CSS", "JS"]}
@@ -138,7 +138,7 @@ const ProjectApps = () => {
             techStackList={["HTML", "CSS"]}
             header="Social Link"
             bio="A simple social link list panel"
-            link="https://social-link-bd.netlify.app/"
+            link="https://social-links-plum.vercel.app/"
           />
         </div>
       </div>
